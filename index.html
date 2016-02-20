@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+	<head>
+		<link rel="stylesheet" href="home.css" />
+		<link href='https://fonts.googleapis.com/css?family=Raleway:800,500,600' rel='stylesheet' type='text/css'>
+		<meta charset="utf-8" />
+
+	</head>
+
+	<body>
+
+		<header> 
+			<center><a href="home.html"><img src="images/header.jpg" /> </a> </center>
+		</header>
+		
+		<center><div class="content">
+		
+			<nav>
+				<ul class="navigation">
+			<li class="toggleSubMenu"><span style = "font-weight: 800; !important">La Procréation Médicalement Assistée ▼</span>
+				<ul class="subMenu">
+					<li><a href="RappelsPMA.html" title="">Comment fonctionne le système reproductif humain ?</a></li>
+					<li><a href="MethodesPMA.html" title="">Quelles sont les différentes méthodes de PMA ?</a></li>
+					<li><a href="HistoirePMA.html" title="">Comment a évolué l'aide à la procréation au cours du temps ? </a></li>
+					<li><a href="LegislationFrance.html" title="">Quelles lois encadrent ces pratiques en France ? </a></li>
+					<li><a href="LegislationPaysEtrangers.html" title="">Comment la PMA est-elle réglementée à l'étranger ? </a></li>
+				</ul>
+			</li>
+			<li class="toggleSubMenu"><span>La Gestation pour Autrui ▼</span>
+				<ul class="subMenu">
+					<li><a href="GPA.html" title="">Qu'est-ce que la Gestation Pour Autrui ? </a></li>
+				</ul>
+			</li>
+			<li class="toggleSubMenu"><span>L'Eugénisme ▼</span>
+				<ul class="subMenu">
+					<li><a href="RappelsGenetique.html" title="">Comment fonctionne la génétique ? </a></li>
+					<li><a href="EugenismeEtPMA.html" title="">L'eugénisme, une conséquence de la PMA ? </a></li>
+					<li><a href="RisquesEugenisme.html" title="">Quels sont les risques de l'eugénisme ?</a></li>
+				</ul>
+			</li>
+		</ul>
+			</nav>
+		
+		
+		<center>
+			<section>
+				
+				<div class="conteneurbulles">
+					<div class="bullePMA">
+						<div class="contentbulle"> <div class="contenubulle"> <a href='PMA.html' style="color: #72243d !important;" > La Procréation Médicalement Assistée </a> </div> </div>
+					</div>
+					<div class="bulleGPA">
+						<div class="contentbulle"> <div class="contenubulle"> <a href='GPA.html' style="color: #72243d !important;" > La Gestation <br/> pour Autrui </a> </div> </div>				
+					</div>
+					<div class="bulleEugenisme">
+						<div class="contentbulle"> <div class="contenubulle"> <a href='Eugenisme.html' style="color: #72243d !important;" > L'Eugénisme </a> </div> </div>				
+					</div>
+				</div>
+				
+				<div class="introduction">
+					<span class="titreintroduction"> <center> Dans quelle mesure doit-on aider à la procréation ? </center> </span>
+					<br /> 
+					L’impossibilité de se reproduire est communément appelée infertilité ou stérilité. Ces termes englobent l’incapacité d’une 
+					femme à tomber enceinte ou à mener à terme sa grossesse. On parle d’infertilité après au moins 12 mois de
+					rapports sexuels réguliers non protégés pour une femme âgée de moins de 35 ans. 
+					<br/> <br/>
+De nos jours, grâce aux progrès médicaux, il est possible de remédier à différents types d’infertilité, qu’elle soit d’origine masculine ou 
+féminine : on parle alors de <b>Procréation Médicalement Assistée</b>, expression qui regroupe de nombreuses techniques.  Parmi elles, nous pouvons
+ citer la <b>Gestation Pour Autrui</b> : il s’agit d’une méthode toute particulière puisque celle-ci n’est pas autorisée en France. 
+					<br/> <br/>
+Cependant, ces pratiques sont sujettes à de nombreuses dérives en raison de l’évolution rapide de la science ; c’est pourquoi nous estimons 
+qu’elles doivent respecter une certaine éthique. En effet, repousser les limites de la bioéthique toujours plus loin pourrait bien plonger 
+notre société dans une <b>forme d'eugénisme</b>. 
+
+				</div>
+				
+				
+
+				
+				
+		
+			</section>
+			
+			
+			
+		
+		</div></center></center>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<script type="text/javascript" src="jQuery.js"></script>
+
+<script type="text/javascript">
+$(document).ready( function () {
+    // On cache les sous-menus :
+    $(".navigation ul.subMenu").hide();
+    // On sélectionne tous les items de liste portant la classe "toggleSubMenu"
+
+    // et on remplace l'élément span qu'ils contiennent par un lien :
+    $(".navigation li.toggleSubMenu span").each( function () {
+        // On stocke le contenu du span :
+        var TexteSpan = $(this).text();
+        $(this).replaceWith('<a href="" title="Afficher le sous-menu">' + TexteSpan + '<\/a>') ;
+    } ) ;
+
+    // On modifie l'évènement "click" sur les liens dans les items de liste
+    // qui portent la classe "toggleSubMenu" :
+    $(".navigation li.toggleSubMenu > a").mouseover( function () {
+        // Si le sous-menu était déjà ouvert, on le referme :
+        if ($(this).next("ul.subMenu:visible").length != 0) {
+            $(this).next("ul.subMenu").slideUp("normal");
+        }
+        // Si le sous-menu est caché, on ferme les autres et on l'affiche :
+        else {
+            $(".navigation ul.subMenu").slideUp("normal");
+            $(this).next("ul.subMenu").slideDown("normal");
+        }
+        // On empêche le navigateur de suivre le lien :
+        return false;
+    });    
+
+
+} ) ;
+</script>     
+
+	</body>
