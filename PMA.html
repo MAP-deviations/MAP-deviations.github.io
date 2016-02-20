@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+	<head>
+		<link rel="stylesheet" href="home.css" />
+		<link href='https://fonts.googleapis.com/css?family=Raleway:800,500,600' rel='stylesheet' type='text/css'>
+		<meta charset="utf-8" />
+
+	</head>
+
+	<body>
+
+		<header> 
+			<center><a href="home.html"><img src="images/header.jpg" /> </a> </center> </center>
+		</header>
+		
+		<center><div class="content">
+		
+			<nav>
+				<ul class="navigation">
+			<li class="toggleSubMenu"><span style = "font-weight: 800; !important">La Procréation Médicalement Assistée ▼</span>
+				<ul class="subMenu">
+					<li><a href="RappelsPMA.html" title="">Comment fonctionne le système reproductif humain ?</a></li>
+					<li><a href="MethodesPMA.html" title="">Quelles sont les différentes méthodes de PMA ?</a></li>
+					<li><a href="HistoirePMA.html" title="">Comment a évolué l'aide à la procréation au cours du temps ? </a></li>
+					<li><a href="LegislationFrance.html" title="">Quelles lois encadrent ces pratiques en France ? </a></li>
+					<li><a href="LegislationPaysEtrangers.html" title="">Comment la PMA est-elle réglementée à l'étranger ? </a></li>
+				</ul>
+			</li>
+			<li class="toggleSubMenu"><span>La Gestation pour Autrui ▼</span>
+				<ul class="subMenu">
+					<li><a href="GPA.html" title="">Qu'est-ce que la Gestation Pour Autrui ? </a></li>
+				</ul>
+			</li>
+			<li class="toggleSubMenu"><span>L'Eugénisme ▼</span>
+				<ul class="subMenu">
+					<li><a href="RappelsGenetique.html" title="">Comment fonctionne la génétique ? </a></li>
+					<li><a href="EugenismeEtPMA.html" title="">L'eugénisme, une conséquence de la PMA ? </a></li>
+					<li><a href="RisquesEugenisme.html" title="">Quels sont les risques de l'eugénisme ?</a></li>
+				</ul>
+			</li>
+		</ul>
+			</nav>
+		
+			<section>
+				
+				<article><span class="titrepartie"> La Procréation Médicalement Assistée </span>
+				<br />
+				<br />
+				<div class="intropartie"> La Procréation Médicalement Assistée (PMA) ou l'assistance médicale à la procréation désigne l'ensemble des techniques permettant
+				de remédier aux problèmes de fertilité diagnostiqués par un médecin, mais également d'éviter de potentielles maladies génétiques graves au futur enfant. 
+				<br/><br/>
+				Il existe de nombreuses méthodes de PMA : la Fécondation In Vitro (FIV), parfois accompagnée d'une Injection Intra-Cytoplasmique de Spermatozoïdes (ICSI), l'insémination artificielle, le don d'embryons... <br/> <br/>
+				Du XVIIIème siècle jusqu'à aujourd'hui, ces méthodes n'ont pas cessé d'évoluer pour être toujours plus efficaces et sécurisées, nottament grâce à notre connaissance
+				toujours plus fine du système reproductif humain. Ainsi, aujourd'hui de plus en plus de couples ont recours à la PMA, parfois par l'intermédiaire des pays étrangers, qui encadrent ces pratiques
+				souvent plus souplement que la France...</div>
+				<br />
+				<br />
+				<div class="questions"> 
+					<div class="contentquestions">
+					<a href="RappelsPMA.html" style="color: #3b0819 !important;"> ♦ Comment fonctionne le système reproductif humain ? </a>
+					<br/> <br/> <a href="MethodesPMA.html" style="color: #3b0819 !important;"> ♦ Quelles sont les différentes méthodes de PMA ? </a>	
+					<br /> <br /> <a href="HistoirePMA.html" style="color: #3b0819 !important;"> ♦ Comment l'aide à la procréation a-t-elle évolué au cours du temps ?</a>
+					<br /> <br /> <a href="LegislationFrance.html" style="color: #3b0819 !important;"> ♦ Quelles lois encadrent ces pratiques en France ? </a>
+					<br /> <br /> <a href="LegislationPaysEtrangers.html" style="color: #3b0819 !important;"> ♦ Comment la PMA est-elle réglementée à l'étranger ? </a>
+				</div> </div>
+					
+					<aside>
+• <b>23 000 babies</b> are born thanks to AMP every years, it represents <b>2,7 %</b> of the babies : <br/>
+- <i>36 %</i> of them with <b>FIV with ISCI</b>.<br/>
+- <i>26 %</i> with <b>artificial insemination</b>.<br/>
+- <i>20 %</i> with <b>FIV</b>.<br/>
+- <i>11 %</i> with <b>embryos transfert</b>.<br/>
+<br/> <br/>
+• <b>1 300</b> of these births are due to the <b>gametes donation</b>, it represents <b>5 %</b> of the babies.
+
+					</aside>
+				</article>
+			</section>
+		
+		</div></center>
+		
+		
+		<!-- Javascript, ne pas modifier ! -->
+		
+		
+		
+		<script type="text/javascript" src="jQuery.js"></script>
+
+<script type="text/javascript">
+$(document).ready( function () {
+    // On cache les sous-menus :
+    $(".navigation ul.subMenu").hide();
+    // On sélectionne tous les items de liste portant la classe "toggleSubMenu"
+
+    // et on remplace l'élément span qu'ils contiennent par un lien :
+    $(".navigation li.toggleSubMenu span").each( function () {
+        // On stocke le contenu du span :
+        var TexteSpan = $(this).text();
+        $(this).replaceWith('<a href="" title="Afficher le sous-menu">' + TexteSpan + '<\/a>') ;
+    } ) ;
+
+    // On modifie l'évènement "click" sur les liens dans les items de liste
+    // qui portent la classe "toggleSubMenu" :
+    $(".navigation li.toggleSubMenu > a").mouseover( function () {
+        // Si le sous-menu était déjà ouvert, on le referme :
+        if ($(this).next("ul.subMenu:visible").length != 0) {
+            $(this).next("ul.subMenu").slideUp("normal");
+        }
+        // Si le sous-menu est caché, on ferme les autres et on l'affiche :
+        else {
+            $(".navigation ul.subMenu").slideUp("normal");
+            $(this).next("ul.subMenu").slideDown("normal");
+        }
+        // On empêche le navigateur de suivre le lien :
+        return false;
+    });    
+
+
+} ) ;
+</script>
+
+	</body>

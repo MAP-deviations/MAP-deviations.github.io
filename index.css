@@ -1,0 +1,481 @@
+.content
+
+{
+	
+	width: 1250px;
+	margin-top: 20px;
+
+}
+
+header
+
+{
+
+	background-color: #83ac68;
+
+}
+
+nav
+
+{
+
+	background-color: #72243d;
+	width: 360px;
+	float: left;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 15px;
+
+}
+
+.liensmenu
+
+{
+
+	border: 1px solid white;
+	padding: 5px;
+
+}
+
+section
+
+{
+
+	width: 850px;
+	float: right;
+	
+}
+
+.conteneurbulles
+
+{
+
+	width: 250px;
+	float: left;
+
+}
+
+.bullePMA
+
+{
+
+	background-color: #ceefb8;
+	width: 220px;
+	height: 220px;
+	border-radius: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 1px 1px 5px 0px #ceefb8;
+	
+}
+
+.bulleGPA
+
+{
+
+	background-color: #a9da88;
+	width: 220px;
+	height: 220px;
+	border-radius: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 1px 1px 5px 0px #A9DA88;
+	
+}
+
+.bulleEugenisme
+
+{
+
+	background-color: #78ae55;
+	width: 220px;
+	height: 220px;
+	border-radius: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 1px 1px 5px 0px #78ae55;
+	
+}
+ .contentbulle
+ 
+ {
+ 
+	display: table;
+	height: 220px;
+	width: 220px;
+ 
+ }
+.contenubulle
+
+{
+	
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	font-weight: 800;
+	
+}
+
+.introduction
+
+{
+
+	width: 480px;
+	height: 530px;
+	float: right;
+	background-color: #f3eedb;
+	margin-top: 10px;
+	margin-right: 40px;
+	box-shadow: 1px 1px 5px 2px #3b0819;
+	padding: 10px;
+	padding-top: 20px;
+	color: #3b0819;
+	text-align: justify;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	margin-top: 70px;
+
+}
+
+.titreintroduction
+
+{
+
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 22px;
+	color: #72243d;
+	
+
+}
+
+.imageintro
+
+{
+
+	width: 500px;
+	height: 320px;
+	background-color: #f3eedb;
+	float: right;
+	margin-top: 10px;
+	margin-right: 40px;
+	box-shadow: 1px 1px 5px 2px #3b0819;
+	font-size: 30px;
+
+}
+
+a
+
+{
+	color: white;
+	text-decoration: none;
+}
+
+.titrepartie
+
+{
+
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 25px;
+color: #72243d;
+text-align: left !important;
+float: left;
+
+
+}
+
+.intropartie
+
+{
+
+	width: 800px;
+	height: 200px;
+	float: left;
+	background-color: #eff6d5;
+	margin-top: 10px;
+	margin-right: 25px;
+	box-shadow: 1px 1px 5px 2px #3b0819;
+	padding: 10px;
+	color: #3b0819;
+	text-align: justify;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	
+}
+
+
+.questions
+
+{
+
+	width: 600px;
+	padding: 10px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	margin-top: 100px;
+	height: 300px;
+	margin-top: 200px;
+	margin-right: 400px;
+
+}
+
+.contentquestions
+
+{
+
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0 auto;
+	height: 300px;
+
+}
+
+aside
+
+{
+
+	float: right;
+	width: 260px;
+	background-color: #ceefb8;
+	height: 300px;
+	margin-top: -300px;
+	margin-right: 50px;
+	box-shadow: 1px 1px 5px 2px #3b0819;
+	padding: 3px;
+	
+
+}
+
+body
+
+{
+
+	background-color: #fffefa;
+
+}
+
+article 
+{
+
+	width: 900px;
+	text-align: justify;
+	font-family: calibri;
+
+}
+
+
+.important
+{
+	
+	color: #5c883c;
+	font-weight: bold;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #72243d;
+  color: #fff;
+  width: 360px;
+  
+}
+.navigation a, .navigation span {
+  display: block;
+  padding: 4px 10px;
+  color: #fff;
+  text-decoration: none;
+  background: #72243d;
+}
+.navigation .toggleSubMenu a {
+border-bottom: 1px solid white;
+font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 15px;}
+
+.navigation .toggleSubMenu span {
+border-bottom: 1px solid white;
+font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 15px;}
+
+.navigation a:hover, .navigation a:focus, .navigation a:active {
+  text-decoration: none;
+}
+.navigation .subMenu {
+  background: #853751 url(subMenu.png) 0 0 repeat-x;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+.navigation ul.subMenu a {
+  background: none;
+  padding: 3px 20px;
+}
+
+
+
+
+
+
+#container1 #content1 {
+	height: 0em;
+	line-height:1.6em;
+	margin: 2px;
+	padding: 2px;
+	overflow: hidden;
+	border: 1px dashed gray;
+	transition: height 1s 0s linear;
+	-moz-transition: height 1s 0s linear;
+	-o-transition: height 1s 0s linear;
+	-webkit-transition: height 1s 0s linear;
+}
+#container1:target #content1 {
+	height: 55.7em; /* (number lines of text) times (line-height) plus 0.5em ; (the transition effect needs a fixed height actually) */
+}
+#container1:target #hide1, #container1 #show1 {
+	display: inline;
+}
+#container1:target #show1, #container1 #hide1 {
+	display: none;
+}
+a.button1 {
+	padding: 2px;
+	border-radius: 3px;
+	border: 1px solid gray;
+	background: -moz-linear-gradient(0 0px -90deg, #bdd594, #a4bc7a 1px, #a4bc7a 9px, #bdd594 12px);
+	background: -o-linear-gradient(top, #bdd594, #a4bc7a 1px, #a4bc7a 9px, #bdd594 12px);
+	background: -webkit-gradient(linear, 0 0, 0 12, from(#fff), color-stop(.07, #a4bc7a), color-stop(.75, #a4bc7a), to(#a4bc7a));
+}
+
+	
+
+	
+	
+#container2 #content2 {
+	height: 0em;
+	line-height:1.6em;
+	margin: 2px;
+	padding: 2px;
+	overflow: hidden;
+	border: 1px dashed gray;
+	transition: height 1s 0s linear;
+	-moz-transition: height 1s 0s linear;
+	-o-transition: height 1s 0s linear;
+	-webkit-transition: height 1s 0s linear;
+}
+#container2:target #content2 {
+	height: 90.7em; /* (number lines of text) times (line-height) plus 0.5em ; (the transition effect needs a fixed height actually) */
+}
+#container2:target #hide2, #container2 #show2 {
+	display: inline;
+}
+#container2:target #show2, #container2 #hide2 {
+	display: none;
+}
+a.button2 {
+	padding: 2px;
+	border-radius: 3px;
+	border: 1px solid gray;
+	background: -moz-linear-gradient(0 0px -90deg, #bdd594, #a4bc7a 1px, #a4bc7a 9px, #bdd594 12px);
+	background: -o-linear-gradient(top, #bdd594, #a4bc7a 1px, #a4bc7a 9px, #bdd594 12px);
+	background: -webkit-gradient(linear, 0 0, 0 12, from(#fff), color-stop(.07, #a4bc7a), color-stop(.75, #a4bc7a), to(#a4bc7a));	
+	}
+
+	
+	
+	
+	#container3 #content3 {
+	height: 0em;
+	line-height:1.6em;
+	margin: 2px;
+	padding: 2px;
+	overflow: hidden;
+	border: 1px dashed gray;
+	transition: height 1s 0s linear;
+	-moz-transition: height 1s 0s linear;
+	-o-transition: height 1s 0s linear;
+	-webkit-transition: height 1s 0s linear;
+}
+#container3:target #content3 {
+	height: 64.7em; /* (number lines of text) times (line-height) plus 0.5em ; (the transition effect needs a fixed height actually) */
+}
+#container3:target #hide3, #container3 #show3 {
+	display: inline;
+}
+#container3:target #show3, #container3 #hide3 {
+	display: none;
+}
+a.button3 {
+	padding: 2px;
+	border-radius: 3px;
+	border: 1px solid gray;
+	background: -moz-linear-gradient(0 0px -90deg, #bdd594, #a4bc7a 1px, #a4bc7a 9px, #bdd594 12px);
+	background: -o-linear-gradient(top, #bdd594, #a4bc7a 1px, #a4bc7a 9px, #bdd594 12px);
+	background: -webkit-gradient(linear, 0 0, 0 12, from(#fff), color-stop(.07, #a4bc7a), color-stop(.75, #a4bc7a), to(#a4bc7a));	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	#container4 #content4 {
+	height: 0em;
+	line-height:1.6em;
+	margin: 2px;
+	padding: 2px;
+	overflow: hidden;
+	border: 1px dashed gray;
+	transition: height 1s 0s linear;
+	-moz-transition: height 1s 0s linear;
+	-o-transition: height 1s 0s linear;
+	-webkit-transition: height 1s 0s linear;
+}
+#container4:target #content4 {
+	height: 38.7em; /* (number lines of text) times (line-height) plus 0.5em ; (the transition effect needs a fixed height actually) */
+}
+#container4:target #hide4, #container4 #show4 {
+	display: inline;
+}
+#container4:target #show4, #container4 #hide4 {
+	display: none;
+}
+a.button4 {
+	padding: 2px;
+	border-radius: 3px;
+	border: 1px solid gray;
+	background: -moz-linear-gradient(0 0px -90deg, #bdd594, #a4bc7a 1px, #a4bc7a 9px, #bdd594 12px);
+	background: -o-linear-gradient(top, #bdd594, #a4bc7a 1px, #a4bc7a 9px, #bdd594 12px);
+	background: -webkit-gradient(linear, 0 0, 0 12, from(#fff), color-stop(.07, #a4bc7a), color-stop(.75, #a4bc7a), to(#a4bc7a));	
+	}
