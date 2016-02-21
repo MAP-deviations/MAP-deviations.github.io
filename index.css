@@ -425,7 +425,7 @@ a.button2 {
 	-webkit-transition: height 1s 0s linear;
 }
 #container3:target #content3 {
-	height: 64.7em; /* (number lines of text) times (line-height) plus 0.5em ; (the transition effect needs a fixed height actually) */
+	height: 70.7em; /* (number lines of text) times (line-height) plus 0.5em ; (the transition effect needs a fixed height actually) */
 }
 #container3:target #hide3, #container3 #show3 {
 	display: inline;
@@ -463,7 +463,7 @@ a.button3 {
 	-webkit-transition: height 1s 0s linear;
 }
 #container4:target #content4 {
-	height: 38.7em; /* (number lines of text) times (line-height) plus 0.5em ; (the transition effect needs a fixed height actually) */
+	height: 45.7em; /* (number lines of text) times (line-height) plus 0.5em ; (the transition effect needs a fixed height actually) */
 }
 #container4:target #hide4, #container4 #show4 {
 	display: inline;
