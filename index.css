@@ -392,7 +392,7 @@ a.button1 {
 	-webkit-transition: height 1s 0s linear;
 }
 #container2:target #content2 {
-	height: 95.7em; /* (number lines of text) times (line-height) plus 0.5em ; (the transition effect needs a fixed height actually) */
+	height: 100.7em; /* (number lines of text) times (line-height) plus 0.5em ; (the transition effect needs a fixed height actually) */
 }
 #container2:target #hide2, #container2 #show2 {
 	display: inline;
